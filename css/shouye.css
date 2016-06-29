@@ -1,0 +1,287 @@
+@charset 'utf-8';
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  position: relative;
+}
+a,
+ul,
+li {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  outline: none;
+  color: #1e5494;
+}
+.todaytool {
+  float: right;
+  width: 300px;
+  margin-right: 10px;
+}
+.todaytool .d1 {
+  margin: 6px 6px 0px 0px;
+  height: 40px;
+}
+.todaytool .d2 {
+  padding: 4px 10px 3px 15px;
+  background-color: #e0ecf9;
+}
+.todaytool .d2 div {
+  height: 68px;
+}
+.todaytool .d2 div b {
+  font-size: 14px;
+}
+.todaytool .d2 div ul {
+  margin: 2px 0px 6px;
+  color: #798699;
+}
+.todaymary {
+  margin-right: 320px;
+  margin-left: 8px;
+}
+.todaymary .updata {
+  padding: 13px 0 0 2px;
+}
+.todaymary .updata ul {
+  min-height: 110px;
+  height: auto;
+}
+.todaymary .updata ul .welcome {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 5px;
+}
+.todaymary .updata ul .welcome .d1 a {
+  color: #1e5494;
+}
+.todaymary .updata ul .welcome .d2 {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.todaymary .updata ul .welcome .d2 a {
+  font-size: 14px;
+  font-weight: bold;
+}
+.todaymary .updata ul .welcome .d2 span {
+  font-size: 12px;
+  color: #798699;
+}
+.todaymary .updata ul .total {
+  font-size: 12px;
+}
+.todaymary .updata ul .total span {
+  display: inline-block;
+  background: url(../images/mail2757b6.png) -32px -32px no-repeat;
+  margin: 0 6px 1px 0;
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  margin-top: -1px;
+}
+.todaymary .updata ul .mary {
+  padding: 8px 0 0;
+  line-height: 22px;
+  font-size: 14px;
+}
+.todaymary .updata ul .mary .d {
+  padding-left: 23px;
+}
+.todaymary .updata ul .mary .d a {
+  float: left;
+  height: 24px;
+  line-height: 22px;
+  font-size: 14px;
+  margin: 0 10px 0 0;
+  font-weight: bolder;
+}
+.todayNotice {
+  margin: 5px 10px 5px 9px;
+}
+.todaytool2 {
+  float: right;
+  width: 300px;
+  margin-right: 10px;
+}
+.todaytool2 .tool {
+  height: 230px;
+  border: 1px solid #a7c5e2;
+  position: relative;
+}
+.todaytool2 .tool .d1 {
+  border: 1px solid #a7c5e2;
+  height: 24px;
+  padding: 4px 4px 0;
+}
+.todaytool2 .tool .d1 .d {
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #a7c5e2;
+  margin-top: 1px;
+  border-bottom: none;
+  font-size: 14px;
+  padding-bottom: 2px;
+}
+.todaytool2 .tool .d1 .d a {
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  height: 100%;
+}
+.todaytool2 .tool .d1 .d .a1 {
+  border-radius: 5px 5px 0 0;
+  border-right: 1px solid #a7c5e2;
+}
+.todaytool2 .tool .d1 .d .a2 {
+  background-color: #EFF5FB;
+}
+.todaytool2 .tool .d2 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+.todaytool2 .tool .d2 .birth {
+  padding-top: 20px;
+  margin: 0 10px;
+}
+.todaytool2 .tool .d2 .birth img {
+  margin: 0 10px 0 0;
+  width: 40px;
+  height: 40px;
+  float: left;
+}
+.todaytool2 .tool .d2 .birth b {
+  display: block;
+  float: left;
+  width: 220px;
+  height: 17px;
+  margin-bottom: 5px;
+  color: #5fa207;
+}
+.todaytool2 .tool .d2 .birth div {
+  margin-top: 7px;
+  margin: 5px 0 0 50px;
+}
+.todaytool2 .tool .d2 .birth div a {
+  font-weight: bold;
+}
+.todaytool2 .tool .d3 {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  display: none;
+}
+.todaytool2 .tool .d3 .myMessage {
+  padding: 5px 0 0 12px;
+  height: 138px;
+  line-height: 18px;
+}
+.todaytool2 .tool .d3 .myMessage .item {
+  margin: 15px 3px;
+}
+.todaytool2 .tool .d3 .myMessage .item .a-1 {
+  display: inline-block;
+}
+.todaytool2 .tool .d3 .myMessage .item .a-1 .span-2 {
+  display: inline-block;
+  margin: 0 3px -3px 0;
+  background-position: -32px 0;
+  background-image: url(../images/contact1e9c5d.gif);
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 16px;
+}
+.todaymary2 {
+  margin-right: 320px;
+  padding-left: 8px;
+}
+.todaymary2 .date {
+  height: 230px;
+}
+.todaymary2 .date .d1 {
+  height: 23px;
+  padding-top: 5px;
+  padding-left: 10px;
+  border: 1px solid #a7c5e2;
+  background-color: #eff5fb;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+.todaymary2 .date .d2 {
+  height: 83px;
+  border: 1px solid #a7c5e2;
+  padding: 0px 2px 8px;
+  border-top-width: 0;
+}
+.todaymary2 .date .d2 a {
+  display: block;
+}
+.todaymary2 .date .d2 a span {
+  background-image: url(../images/20160218_mailapp01.png);
+  background-repeat: no-repeat;
+  width: 671px;
+  height: 83px;
+  display: inline-block;
+}
+.todaymary2 .date .d3 {
+  color: #798699;
+  height: 104px;
+  border: 1px solid #a7c5e2;
+  border-top-width: 0;
+}
+.todaymary2 .date .d3 li {
+  width: 44%;
+  float: left;
+  padding: 3px 0;
+}
+.todaymary2 .date .d3 li div {
+  padding: 4px 0 0 25px;
+  font-size: 14px;
+  line-height: 22px;
+}
+.todaymary2 .date .d3 li div span {
+  width: 24px;
+  height: 24px;
+  margin-right: 1px;
+  float: left;
+}
+.todaymary2 .date .d3 li div .span-1 {
+  background-image: url(../images/newicon_today_blue1e9c5d.png);
+  background-repeat: no-repeat;
+  background-position: 1px 0px;
+}
+.todaymary2 .date .d3 li div .span-2 {
+  background-image: url(../images/newicon_today_blue1e9c5d.png);
+  background-repeat: no-repeat;
+  background-position: 0px -31px;
+}
+.todaymary2 .date .d3 li div .span-3 {
+  background-image: url(../images/newicon_today_blue1e9c5d.png);
+  background-repeat: no-repeat;
+  background-position: 0px -61px;
+}
+.todaymary2 .date .d3 li div .span-4 {
+  background-image: url(../images/newicon_today_blue1e9c5d.png);
+  background-repeat: no-repeat;
+  background-position: 0px -93px;
+}
+.todaymary2 .date .d3 li div .span-5 {
+  background-image: url(../images/newicon_today_blue1e9c5d.png);
+  background-repeat: no-repeat;
+  background-position: 0px -125px;
+}
+.todaymary2 .date .d3 li div .span-6 {
+  background-image: url(../images/newicon_today_blue1e9c5d.png);
+  background-repeat: no-repeat;
+  background-position: 0px -158px;
+}
+.foot {
+  margin: 15px 0 0 10px;
+  clear: both;
+  color: #798699;
+}
